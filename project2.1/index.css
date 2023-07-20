@@ -1,0 +1,219 @@
+
+ .nav1{
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.item-floating{
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    margin-left: -9px;
+    margin-top: -15px;
+    font-size: small;
+    font-weight: 200;
+    background-color:#D3D3D3;
+    width: 20px;
+    height: 16px;
+    border-radius:50% ;
+}
+/* section 2nd product 1 pics height */
+
+
+/* pd */
+.pd{
+    padding-top: 80px;
+    padding-bottom: 60px;
+}
+.pd-t{
+    font-weight: 300;
+    font-family: 'Times New Roman', Times, serif;
+    padding-bottom: 30px;
+}
+.pd-h h5{
+    font-style: oblique;
+    padding-top: 10px;
+    font-weight: 500;
+}
+
+/* imagslider */
+.carousel-caption .butt {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.carousel-caption:hover .butt {
+  opacity: 1;
+}
+
+/* imagslider */
+/* section 2nd product 1 pics height */
+
+
+/* section 3rd new arrivals pics and hover*/
+.image-wrapper {
+    position: relative;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-wrapper:hover .overlay {
+    opacity: 1;
+  }
+  
+  .buttons {
+    display: none;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .overlay:hover .buttons {
+    display: block;
+  }
+  .image-container {
+    float: right;
+  }
+  .position-relative {
+    position: relative;
+  }
+
+  .price-tag {
+    position: absolute;
+    top: -12px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 10px;
+    font-size: 18px;
+  }
+  /* image slider */
+  
+/* section 3rd new arrivals pics and hover*/
+/************************************** section 4rth new arrivals pics and hover**************************************************/
+.in-t{
+  /* padding-top: 20px; */
+  padding-bottom: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.in-t button{
+  border: none;
+margin-left: -12px;
+}
+.pg4{
+padding: 150px;
+}
+
+/*  */
+/************************************** section 4rth new arrivals pics and hover**************************************************/
+.banner {
+  background-color: lightgray;
+}
+
+.banner h1{
+  font-size: 40px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* blog */
+.blog{
+  /* display: flex; */
+  /* flex-direction: column; */
+  padding: 180px;
+}
+.blog-heading{
+  /* padding-top: 50px; */
+  padding-bottom: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.bh4{
+   margin-top: 20px;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 18px;
+  padding-bottom: 30px;
+}
+.bfb{
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.bbt-1{
+  background-color: transparent;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bbt-1:hover{
+  background-color: lightcoral;
+}
+/* blog */
+/* popular post */
+.popt{
+  padding-bottom: 30px;
+  font-size: 30px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* popular post */
+
+/* footer */
+.footer{
+  padding-top: 130px;
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+/* footer */
+
+
+/* search */
+.search-form {
+  position: relative;
+  display: inline-block;
+}
+
+.search-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  color: #999;
+  cursor: pointer;
+}
+
+.search-form:hover .search-icon {
+  color: #333;
+}
+
+#search-box {
+  padding-right: 30px; /* Add padding to accommodate the icon */
+}
+
+.sidebar {
+  position: fixed;
+  top: 0;
+  left: -300px;
+  width: 300px;
+  height: 100vh;
+  background-color: #f1f1f1;
+  padding: 20px;
+  transition: left 0.3s ease-in-out;
+}
+
+.sidebar.active {
+  left: 0;
+}
+
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
